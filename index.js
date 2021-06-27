@@ -1,3 +1,3 @@
 #!/usr/bin/env node
 
-console.log('NpX TeSt!')
+console.log('NpX TeSt...')
