@@ -1,8 +1,11 @@
 {
   "name": "@chejen/npx-test",
-  "version": "0.0.8",
+  "version": "0.0.7",
   "bin": "./index.js",
   "scripts": {
-    "test": "echo \"----- hello world test - foo bar -----\" &&exit 0"
+    "test": "exit 0"
+  },
+  "publishConfig": {
+    "@chejen:registry": "https://npm.pkg.github.com"
   }
 }
